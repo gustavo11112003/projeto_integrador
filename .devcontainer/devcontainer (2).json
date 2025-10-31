@@ -1,8 +1,9 @@
 {
-  "name": "Projeto Back",
+  "name": "Padrões de desenvolvimanto web",
   "build": {
     "dockerfile": "Dockerfile"
   },
+  
   "customizations": {
     "vscode": {
       "settings": {},
