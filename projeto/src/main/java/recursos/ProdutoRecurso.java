@@ -11,6 +11,11 @@ import jakarta.ws.rs.Path;
 public class ProdutoRecurso {
     @GET
     public List<Produto> listar () {
-        return Produto.listAll(Sort.ascending("nome"));
+        return Produto.listAll();
+    }
+    @POST
+   @Transactional
+    puplic void SAlvar (Produto produto) {
+        produto.persist();
     }
 }
