@@ -49,7 +49,7 @@ public class ProdutoRecurso {
             produtoExistente.categoria = produto.categoria;
             produtoExistente.fabricante = produto.fabricante;
 
-            produtoExistente.persist();
+           
         }
     }
 }
